@@ -12,7 +12,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot-Fylo.png)
+![](https://github.com/Rodrick-alt/Dark-Theme-Landing-Page/blob/master/images/Screenshot-Fylo.png)
+
 
 
 ### Built with
