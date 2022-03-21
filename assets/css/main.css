@@ -221,6 +221,7 @@ button:active{
   flex-flow:row wrap;
   justify-content: space-evenly;
   align-items: center;
+  gap: 50px;
 }
 .content2__img{
   max-width: 100%;
@@ -260,6 +261,7 @@ button:active{
   justify-content: space-around;
   align-items: baseline;
   width: 100%;
+  row-gap: 10px;
 }
 .wrapper-2__img{
   position:absolute;

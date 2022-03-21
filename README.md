@@ -1,25 +1,8 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - Fylo dark theme landing page solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
-## Overview
+This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### The challenge
-
-Your challenge is to build out this order summary card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Users should be able to:
 
@@ -29,10 +12,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](images\Screenshot-Fylo.png)
+![](./images/Screenshot-Fylo.png)
 
-
-## My process
 
 ### Built with
 
@@ -42,9 +23,8 @@ Users should be able to:
 
 ### What I learned
 
-How to override default text-decoration for text elements with phone numbers, specifically in Safari. 
-
-How to implement cross-browser smooth-scrolling.
+- How to override default text-decoration for text elements with phone numbers. 
+- How to implement cross-browser smooth-scrolling.
 
 ```css
 a[href^="tel"]{
@@ -60,5 +40,4 @@ a[href^="tel"]{
 
 ## Author
 
-- Github - [Rodrick](https://github.com/Rodrick-alt)
 - Frontend Mentor - [Rodrick](https://www.frontendmentor.io/profile/Rodrick-alt)
