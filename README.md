@@ -38,7 +38,3 @@ a[href^="tel"]{
 
 - [Stackoverflow](https://stackoverflow.com/questions/3736807/how-do-i-remove-the-blue-styling-of-telephone-numbers-on-iphone-ios) - This helped me with removing text-decoration from phone numbers when viwed in Safari.
 - [W3schools](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1) - This helped me with correctly implementing Smooth Scroll.
-
-## Author
-
-- Frontend Mentor - [Rodrick](https://www.frontendmentor.io/profile/Rodrick-alt)
