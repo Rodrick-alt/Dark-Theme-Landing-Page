@@ -56,11 +56,6 @@ table {
   flex: 1 100%;
 }
 body{
-  /* onload anim */
-  opacity: 0;
-  transition: opacity 2s;
-  -webkit-transition: opacity 2s;
-
   color:white;
   background: hsl(218, 28%, 13%);
 }
