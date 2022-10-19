@@ -5,25 +5,21 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets\css\main.css" />
+  <link rel="stylesheet" href="CSS\main.css" />
 
   <!-- WebFonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Raleway -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
     rel="stylesheet">
-  <!-- Open Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Head-SEO -->
-  <link rel="icon" type="image/png" href="#ICON-HERE" />
+  <link rel="icon" type="image/png" href="icon.png" />
   <meta name="description" content="This is an example." />
-  <title>Fylo</title>
+  <title>Fylo: Easy File Storage</title>
 </head>
 
-<body class='flex-wrapper'>
-  <!-- NAV-BAR -->
+<body>
   <header>
     <nav class="nav">
       <img src="images/logo.svg" alt="Logo" class="nav__img" />
@@ -37,7 +33,6 @@
 
   <main>
 
-    <!-- HERO -->
     <section class="hero">
       <img src="images/illustration-intro.png" alt="Files Graphic" class="hero__img" />
       <h1 class="hero__h1">
@@ -49,18 +44,17 @@
         Access them whenever you need, share and collaborate with
         friends family, and co-workers.
       </p>
-      <a id='btnLink' href='#SignUp'><button class="hero__btn">Get Started</button></a>
+      <a id='btnLink' href='#SignUp'>
+        <button class="hero__btn">Get Started</button>
+      </a>
       <div id='Features' />
     </section>
 
-    <!-- MAIN-CONTENT -->
-    <article class="main-content">
+    <section class="main-content">
+
       <section class="wrapper-1">
         <div class="content1">
-          <img
-            src="images/icon-access-anywhere.svg"
-            alt="computer graphic"
-            class="content1__img" />
+          <img src="images/icon-access-anywhere.svg" alt="computer graphic" class="content1__img" />
           <h3 class="content1__h3">Access your files, anywhere</h3>
           <p class="content1__p">
             The ability to use a smartphine, tablet, or computer
@@ -84,11 +78,7 @@
         </div>
 
         <div class="content1">
-
-          <img
-            src="images/icon-collaboration.svg"
-            alt="check-mark graphic"
-            class="content1__img" />
+          <img src="images/icon-collaboration.svg" alt="check-mark graphic" class="content1__img" />
           <h3 class="content1__h3">Real-time collaboration</h3>
           <p class="content1__p">
             Securely share files and folders with friends, family and
@@ -112,12 +102,8 @@
         </div>
       </section>
 
-
       <section class="content2">
-        <img
-          src="images/illustration-stay-productive.png"
-          alt="chat graphic"
-          class="content2__img" />
+        <img src="images/illustration-stay-productive.png" alt="graphic" class="content2__img" />
 
         <div class="content2-wrapper">
           <span id='Teams'></span>
@@ -139,33 +125,13 @@
           </p>
           <br />
           <a href="" class="content2-wrapper__a">
-            See how Fylo works
-
-            <svg class="content2-wrapper__svg" width="16" height="16" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                <circle id="b" cx="6" cy="6" r="6" />
-                <filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a">
-                  <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
-                  <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-                  <feColorMatrix
-                    values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0"
-                    in="shadowBlurOuter1" />
-                </filter>
-              </defs>
-              <g fill="none" fill-rule="evenodd">
-                <g transform="translate(2 2)">
-                  <use fill="#000" filter="url(#a)" xlink:href="#b" />
-                  <use fill="#62E0D9" xlink:href="#b" />
-                </g>
-                <path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330" />
-              </g>
-            </svg>
+            See how Fylo works <img src="/images/icon-arrow.svg" alt="arrow" />
           </a>
         </div>
       </section>
 
       <section class="wrapper-2">
+
         <div class="content3">
           <p class="content3__p">
             Fylo has improved our team productivity by
@@ -220,11 +186,13 @@
           </div>
         </div>
       </section>
-    </article>
+
+    </section>
   </main>
 
-  <!--Email Form-->
+
   <section class="wrapper-3">
+
     <div class="email">
       <h2 class="email__h2">Get early access today</h2>
       <br />
@@ -233,24 +201,21 @@
         have any questions, our support team would be happy to help you.
       </p>
       <br />
-      <div class="email-wrapper">
-        <form action="##" method="POST">
-          <input type="email" class="email-wrapper__input" required placeholder="email@example.com" />
-          <button type='submit' class="email-wrapper__btn">Get Started For Free</button>
-        </form>
-      </div>
+      <form action="##" method="POST" class="email-wrapper">
+        <input type="email" class="email-wrapper__input" required placeholder="email@example.com" />
+        <button type='submit' class="email-wrapper__btn">Get Started For Free</button>
+      </form>
     </div>
+
     <div id='SignUp' />
   </section>
 
 
-  <!--Footer-->
   <footer>
     <img src="images/logo.svg" alt="Logo" class="footer__img" />
     <br />
 
     <div class="footer-wrapper">
-
       <div class="footer-item1">
         <img src="images/icon-location.svg" alt='svg' class="footer-item1__img"></img>
         <p class="footer-item1__p">
@@ -293,46 +258,31 @@
       </div>
 
       <div class="footer-item5">
-        <svg xmlns="http://www.w3.org/2000/svg" class="footer-item5__svg" width="24" height="24" viewBox="0 0 24 24"
-          fill='white'>
-          <path
-            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" class="footer-item5__svg" width="24" height="24" viewBox="0 0 24 24"
-          fill="white">
-          <path
-            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" class="footer-item5__svg" width="24" height="24" viewBox="0 0 24 24"
-          fill="white">
-          <path
-            d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
-        </svg>
+        <img src="./images/iconmonstr-facebook-4.svg" alt="facebook" class="footer-item5__svg" />
+        <img src="./images/iconmonstr-twitter-4.svg" alt="facebook" class="footer-item5__svg" />
+        <img src="./images/iconmonstr-instagram-14.svg" alt="facebook" class="footer-item5__svg" />
       </div>
-
     </div>
   </footer>
+
+
   <!-- Cross-brower smooth-scrolling | jQuery  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
       // Add smooth scrolling to all links
       $("a").on('click', function (event) {
-
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
           event.preventDefault();
-
           // Store hash
           var hash = this.hash;
-
           // Using jQuery's animate() method to add smooth page scroll
           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
           $('html, body').animate({
             scrollTop: $(hash).offset().top
           }, 800, function () {
-
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
           });
@@ -340,6 +290,7 @@
       });
     });
   </script>
+
 </body>
 
 </html>
